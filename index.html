@@ -1,84 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advance Investing</title>
+    <title>Investidor</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
-
-        body {
-            margin: 0;
-            font-family: 'Open Sans', sans-serif;
-            background: linear-gradient(to bottom, #000000, #00843D);
-            color: #FFFFFF;
-            text-align: center;
-        }
-
         .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-
-        .logo {
-            margin-bottom: 50px;
-        }
-
-        .buttons {
-            margin-bottom: 50px;
-        }
-
-        .buttons a {
-            display: block;
-            margin: 10px 0;
-            padding: 15px 30px;
-            background-color: #00FF21;
-            color: #000;
-            text-decoration: none;
-            border-radius: 15px;
-            width: 200px;
-            font-weight: bold;
-        }
-
-        .footer {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            text-align: center;
             margin-top: 50px;
         }
-
-        .footer img {
-            height: 24px;
-            margin-right: 10px;
+        .logo {
+            width: 150px;
+            height: auto;
         }
-
-        .tiktok-link {
-            color: #FFFFFF;
+        .circle-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .circle {
+            width: 50px;
+            height: 50px;
+            background-color: #000; /* Ajuste a cor de fundo se necessário */
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .circle img {
+            width: 30px;
+            height: auto;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .button {
+            display: block;
+            width: 200px;
+            padding: 10px;
+            margin: 10px auto;
+            background-color: #00FF00; /* Cor verde */
+            color: #000;
+            text-align: center;
             text-decoration: none;
-        }
-
-        .tiktok-link:hover {
-            text-decoration: underline;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="logo">
-            <img src="https://i.ibb.co/p02NYRv/advanceinvesting-logo.png" alt="Advance Investing Logo">
+        <div class="logo-container">
+            <img src="https://i.ibb.co/qRWF8JS/Logo-IA.png" alt="Logo" class="logo">
         </div>
-        <div class="buttons">
-            <a href="https://pay.kiwify.com.br/7I99azV?afid=kluyQuID">Investidor em 1 hora</a>
-            <a href="https://www.instagram.com/heyinvestidor/">Instagram: HeyInvestidor</a>
-            <a href="https://www.instagram.com/advance_investing?igsh=MXd1YzFjamd1djZrcw%3D%3D&utm_source=qr">Instagram: Advance_Investing</a>
-            <a href="https://pay.kiwify.com.br/leoyFUj">E-BOOK: 4 Maneiras de Ganhar Dinheiro Sem Sair de Casa Usando Apenas o Celular</a>
+        <div class="circle-container">
+            <div class="circle">
+                <img src="https://i.ibb.co/mvJBpKm" alt="TikTok">
+            </div>
+            <div class="circle">
+                <img src="https://i.ibb.co/1Lfnbvt" alt="Instagram">
+            </div>
         </div>
-        <div class="footer">
-            <img src="https://i.ibb.co/sw9xc6G/tiktok.png" alt="TikTok Logo">
-            <a href="https://www.tiktok.com/@advanceinvesting?is_from_webapp=1&sender_device=pc" class="tiktok-link">@advanceinvesting</a>
+        <div class="button-container">
+            <a href="#" class="button">Investidor em 1 hora</a>
         </div>
     </div>
 </body>
