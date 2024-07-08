@@ -1,72 +1,70 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Investidor</title>
+    <title>Advance Investing</title>
     <style>
-        .container {
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+            background: linear-gradient(to bottom, #000000, #00843D);
+            color: #FFFFFF;
             text-align: center;
-            margin-top: 50px;
         }
-        .logo {
-            width: 150px;
-            height: auto;
-        }
-        .circle-container {
+
+        .container {
             display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin: 20px 0;
-        }
-        .circle {
-            width: 50px;
-            height: 50px;
-            background-color: #000; /* Ajuste a cor de fundo se necessário */
-            border-radius: 50%;
-            display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
+            height: 100vh;
         }
-        .circle img {
-            width: 30px;
-            height: auto;
+
+        .logo {
+            margin-bottom: 50px;
         }
-        .button-container {
-            margin-top: 20px;
+
+        .buttons {
+            margin-bottom: 50px;
         }
-        .button {
+
+        .buttons a {
             display: block;
-            width: 200px;
-            padding: 10px;
-            margin: 10px auto;
-            background-color: #00FF00; /* Cor verde */
+            margin: 10px 0;
+            padding: 15px 30px;
+            background-color: #00FF21;
             color: #000;
-            text-align: center;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 15px;
+            width: 200px;
+            font-weight: bold;
+        }
+
+        .tiktok-link {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .tiktok-link:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="logo-container">
-            <img src="https://i.ibb.co/qRWF8JS/Logo-IA.png" alt="Logo" class="logo">
+        <div class="logo">
+            <img src="advanceinvesting_logo.png" alt="Advance Investing Logo">
         </div>
-        <div class="circle-container">
-            <div class="circle">
-                <a href="https://www.tiktok.com/@advanceinvesting?is_from_webapp=1&sender_device=pc" target="_blank">
-                    <img src="https://i.ibb.co/mvJBpKm" alt="TikTok">
-                </a>
-            </div>
-            <div class="circle">
-                <a href="https://www.instagram.com/advance_investing?igsh=MXd1YzFjamd1djZrcw%3D%3D&utm_source=qr" target="_blank">
-                    <img src="https://i.ibb.co/1Lfnbvt" alt="Instagram">
-                </a>
-            </div>
+        <div class="buttons">
+            <a href="https://pay.kiwify.com.br/7I99azV?afid=kluyQuID">Investidor em 1 hora</a>
+            <a href="https://www.instagram.com/heyinvestidor/">Instagram: HeyInvestidor</a>
+            <a href="#">Criação de conta do instagram: Advance Investing em andamento</a>
         </div>
-        <div class="button-container">
-            <a href="#" class="button">Investidor em 1 hora</a>
+        <div class="footer">
+            <a href="https://www.tiktok.com/@advanceinvesting?is_from_webapp=1&sender_device=pc" class="tiktok-link">@advanceinvesting</a>
         </div>
     </div>
 </body>
