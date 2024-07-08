@@ -3,9 +3,10 @@
 git add .
 
 :: Fazer o commit com uma mensagem padrão ou personalizada
-set /p commit_msg="Digite a mensagem do commit (ou pressione Enter para usar a mensagem padrão): "
-if "%commit_msg%"=="" set commit_msg=Descrição das novas alterações
-git commit -m "%commit_msg%"
+git commit -m "Atualizações automáticas via script"
 
 :: Enviar as alterações para o repositório remoto
 git push -u origin main
+
+echo "Push realizado com sucesso!"
+pause
